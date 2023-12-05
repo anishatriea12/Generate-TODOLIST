@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "My Todo List",
+    "slug": "TodoList",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/my-todo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-custom.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/my-todo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anishapohon.TodoList"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5a2fa017-bbac-4e93-b113-04d9e140fce2"
+      }
+    }
+  }
+}
